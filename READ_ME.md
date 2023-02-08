@@ -3,12 +3,14 @@ This codes is a PYTHON program to compute the Green's function of an infinite pl
 This PYTHON code is translated, by Edouard Kravchinsky, from the MATLAB code of Greg McLaskey. The MATLAB code was translated, by [Greg McLaskey (2010)](https://doi.org/10.1121/1.3466847), from a FORTRAN code written by [Nelson Hsu (1985)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3234.pdf) at the National Bureau of Standards. There are a few known bugs in this code.
 
 Notes: Greg McLaskey
+
 1)	The units in the original FORTRAN code were not entirely correct. This was fixed in the MATLAB version. Now the output is in units of meters, as described in the comments of the MATLAB function, and reprinted below.
 2)	The code does not work if the source is directly opposite the sensor (i.e. ```xdist = 0``` in the MATLAB version, or ```source-detector horizontal distance = 0``` in the FORTRAN version). To circumvent this problem, a very small value for ```xdist``` can be substituted without any loss of accuracy. 
 3)	I believe the code will output non-zero values for all indexes, yet, according to [L. R. Johnson (1974)](https://doi.org/10.1111/j.1365-246X.1974.tb02446.x) the only nonzero indexes should be: 11 31 22 13, 33, 111, 311, 221, 131, 331, 212, 322, 232, 113, 313, 223, 133, 333. All other indexes should be identically zero. To be consistent with the notation of the same paper, the polarity of some of the Green’s functions should be switched. For example, 31 311, 322, 333… etc. 
 4)	For buried source problems (i.e. when ``zdist`` is less than ```h```) some of the later arriving reflections are incorrect!
 
 Notes: Edouard Kravchinsky
+
 5)	As mentioned in the original FORTRAN code / paper, if the sensor and detector are far apart or the maximum time is large, the number of rays arriving at approximately the same time may be too large to compute in a reasonable time and the accumulated error may grow.
 
 Use the script ```python PYTHONPlateSolution_example.py``` for an example on how to use the code. All of the functions are in ```function_modules.py``` with the main function to call being ```function_modules.PYTHONPlateSolutionFunc```.
