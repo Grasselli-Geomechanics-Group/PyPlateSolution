@@ -1,4 +1,4 @@
-This codes is a PYTHON program to compute the Green's function of an infinite plate. It was originally written by [Nelson Hsu (1985)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3234.pdf) mainly for its application to calibrate acoustic emission systems and sensors.
+This is a PYTHON program to compute the Green's function of an infinite plate. It was originally written by [Nelson Hsu (1985)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3234.pdf) mainly for its application to calibrate acoustic emission systems and sensors.
 
 This PYTHON code is translated, by Edouard Kravchinsky, from the MATLAB code of Greg McLaskey. The MATLAB code was translated, by [Greg McLaskey (2010)](https://doi.org/10.1121/1.3466847), from a FORTRAN code written by [Nelson Hsu (1985)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3234.pdf) at the National Bureau of Standards. There are a few known bugs in this code.
 
