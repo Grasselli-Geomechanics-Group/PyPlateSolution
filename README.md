@@ -13,7 +13,7 @@ Notes: Edouard Kravchinsky
 
 5)	As mentioned in the original FORTRAN code / paper, if the sensor and detector are far apart or the maximum time is large, the number of rays arriving at approximately the same time may be too large to compute in a reasonable time and the accumulated error may grow.
 
-Use the script ```python PYTHONPlateSolution_example.py``` for an example on how to use the code. All of the functions are in ```function_modules.py``` with the main function to call being ```function_modules.PYTHONPlateSolutionFunc```.
+Use the script ```python PYTHONPlateSolution_example.py``` for an example on how to use the code or the Jupyter example ```PYTHONPlateSolution_example.ipynb```. All of the functions are in ```function_modules.py``` with the main function to call being ```function_modules.PYTHONPlateSolutionFunc```.
 
 ```python 
 def PYTHONPlateSolutionFunc(Cs, Cp, rho, h, xdist, zdist, T, npoint, INDEX, printOption):
