@@ -34,7 +34,7 @@ def PYTHONSolution_example():
     plt.subplot(212)
     plt.plot(np.arange(1, npoint) * T, np.diff(output, axis=0) / T)
     plt.xlabel('time (s)')
-    plt.ylabel('Greens function (m/N/s)')
+    plt.ylabel('Greens function (m/(N*s))')
 
     plt.show()
 
