@@ -1,7 +1,8 @@
 This is a PYTHON program to compute the Green's function of an infinite plate. It was originally written by [Nelson Hsu (1985)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3234.pdf) mainly for its application to calibrate acoustic emission systems and sensors.
 
-This PYTHON code is translated, by Edouard Kravchinsky, from the MATLAB code of Greg McLaskey. The MATLAB code was translated, by [Greg McLaskey (2010)](https://doi.org/10.1121/1.3466847), from a FORTRAN code written by [Nelson Hsu (1985)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3234.pdf) at the National Bureau of Standards. There are a few known bugs in this code.
+This PYTHON code is translated, by Edouard Kravchinsky, from the MATLAB code of Greg McLaskey. The MATLAB code was translated, by [Greg McLaskey and Glaser (2010)](https://doi.org/10.1121/1.3466847), from a FORTRAN code written by [Nelson Hsu (1985)](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir85-3234.pdf) at the National Bureau of Standards. For additional references in the application of this code see [McLaskey and Glaser (2010)](https://doi.org/10.1121/1.3466847), [McLaskey and Glaser (2012)](https://doi.org/10.1007/s10921-012-0131-2) and [Wu and McLaskey (2018)](https://doi.org/10.1007/s10921-018-0462-8).
 
+There are a few known bugs in this code.
 Notes: Greg McLaskey
 
 1)	The units in the original FORTRAN code were not entirely correct. This was fixed in the MATLAB version. Now the output is in units of meters, as described in the comments of the MATLAB function, and reprinted below.
