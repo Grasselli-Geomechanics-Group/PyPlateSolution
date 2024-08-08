@@ -4,7 +4,7 @@ authors:
 - family-names: "Kravchinsky"
   given-names: "Edouard"
 title: "PyPlateSolution"
-version: 1.0.0
-doi:
+version: 1.0.1
+doi: 10.5281/zenodo.13272373 
 date-released: 2024-08-06
 url: "https://github.com/Grasselli-Geomechanics-Group/PyPlateSolution.git"
